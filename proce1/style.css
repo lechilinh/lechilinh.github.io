@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+img{
+  max-width: 300px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.img-container{
+    float: left;
+    width: 25%;
+    padding: 25px;
+    
+}
+.titile{
+    float: left;
+    margin: 0px 90px 0px 90px;
+}
+button:link{
+    color: gray;
+}
+button:visited{
+    color: palegreen;
+}
+button:active{
+    color: green;
+}
+button:hover{
+    color:brown;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}

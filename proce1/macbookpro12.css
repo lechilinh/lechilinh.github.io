@@ -1,0 +1,19 @@
+img{
+    max-width: 500px;
+}
+button:link{
+    color: gray;
+}
+button:visited{
+    color: palegreen;
+}
+button:active{
+    color: green;
+}
+button:hover{
+    color:brown;
+}
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
