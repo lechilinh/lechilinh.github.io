@@ -37,7 +37,7 @@ img{
 }
  .pi{
     padding: 15px;
-    margin-right: 5px;
+    
     float: left;
     width: 32.8%;
     
@@ -50,13 +50,10 @@ img{
     padding: 0px;
 }
 img.gallery{
-    width: 333px;
-    height: 200px;
+    width: 100%;
+    
 }
-img.gallery1{
-    width: 400px;
-    height: 200px;
-}
+
 #container{
     max-width: 100%;
     margin: auto;
