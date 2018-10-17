@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+}
+#wraper{
+    width: 1000px;
+    margin: 0px auto;
+}
+ #banner img{
+   width: 100%;
+   height: 150px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+/*#menu{
+    width: 25%;
+    height: 300px;
+    background-color: brown;
+    float: left;
+    
+    position: absolute;
+}*/
+ #content{
+    float: right;
+    width: 74%;
+    height: 300px;
+    
+    margin-left: 1%;
+    
+}
+#menu {
+    background-color: #9dcff0;
+    width: 25%;
+    height: 300px;
+    padding: 0px;
+    
+    
+    float: left;
+    position: absolute;
+    
+}
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+#menu ul li{
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 1em;
+    border-bottom: 1px solid #e8e8e8;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+#content1{
+   
+   
+    margin-top: 10px;
+    width: 100%;
+}
+#content1 div img{
+    width: 33%;
+    height: 300px;
+}
+.clear {
+    clear: both;
+}
+#menu  li:hover{
+    background-color: #CDE2CD;
+}
+#content a img:hover{
+    border: 1px solid rgb(235, 218, 218);
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(99, 68, 42);
+    position: relative;
+    text-align: center;
+    padding: 0px 30px;
+}
+#backtotop  img{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    z-index: 9999;
+    bottom: 40px;
+    right: 30px;
+}
