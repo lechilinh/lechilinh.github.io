@@ -1,0 +1,85 @@
+body{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popover_button{
+    border: none;
+    padding: 16px 16px;
+    background-color: rgb(53, 211, 87);
+    outline: none;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+   
+}
+
+.popover{
+    width: 200px;
+    height: 200px;
+    background-color: #333;
+    position: relative;
+    border-radius: 10px;
+    top: 46px;
+    
+}
+
+.container{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.popover{
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+    top: 74px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.2);
+}
+.popover-icon{
+    width: 0px;
+    height: 0px;
+    
+   z-index: 1;
+    position: absolute;
+    top: -40px;
+    left: 80px;
+    border: 20px solid transparent;
+    border-bottom: 20px solid rgb(82, 121, 155);
+}
+.content-popover{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+.popover-title{
+    background-color: rgb(82, 121, 155);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popover-content{
+    background-color: rgb(138, 135, 132);
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    height: 70%;
+}
