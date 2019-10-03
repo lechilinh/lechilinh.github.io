@@ -33,13 +33,18 @@
     </div>
 
     <script>
-        $(document).ready(function () {
+       $(document).ready(function () {
+            $(".popover").hide();
+            $("body").css("background-color","#333");
 
-            $("button").click(function(){
-            $(".popover").animate({
-                opacity: 'toggle'
+            $("button").click(function () {
+                $(".popover").animate({
+                    opacity: "toggle"
+                },500,"linear");
+                
             });
-            });
+
+
 
         });
 
