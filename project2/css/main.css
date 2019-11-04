@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Mansalva|Open+Sans&display=swap');
+
+body{
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    padding: 0 !important;
+    /* opacity: 0.7; */
+    
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    left: 0;
+    top: 131%;
+    position: absolute;
+}
+
+.my-brand{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    font-weight: bold;
+    color: #4D726D !important;
+    /* background-color: rgb(60, 62, 66); */
+    padding: 0.3em 0.3em 0.3em 0;
+    border-radius: 6%;
+    height: 100%;
+}
+
+.my-brand:focus{
+    color: #fff !important;
+}
+
+.font-menu{
+    font-family: 'Open Sans', sans-serif;
+    /* text-transform: uppercase; */
+    color: #fff !important;
+    font-size: 1em;
+}
+
+.bg-my{
+    background-color: #343434;
+    border-bottom: 2px solid #4AA180;
+   
+}
+
+.bg-toggle{
+    background-color: #f1f1f1;
+}
+
+.font-menu:focus{
+    background-color: #4AA180;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #4AA180;
+}
+.bg-collapse{
+    background-color: #676969;
+    z-index: 1001;
+}
+@media (min-width: 576px) { 
+
+  .bg-collapse{
+      background-color: #343434;
+     
+  }
+
+}
+
+/* banner */
+
+.container-fluid .banner{
+    
+    
+    height: 400px;
+    background-image: url('../img/img_banner/newyork\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+   
+    
+}
+.overlay-banner{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+}
+.form-banner{
+    /*   */
+    top: 11%;
+    z-index: 1000;
+}
+
+
+@media (max-width: 991.98px) { 
+    .favote-1{
+        display: none;
+    }
+}
+
+/* icon arrow */
+.down-arrow{
+    border-top: 1em solid #343a40;
+    border-right: 1em solid transparent;
+    border-left: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+   
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-1em);
+}
+
+
+#myvideo{
+    width: 100%;
+    object-fit: inherit;
+}
+.poter{
+   width: 6em;
+   height: 6em;
+    background-color: cadetblue;
+    transform: rotate(30deg);
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+.box-shadow:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+.poter1{
+    width: 6em;
+    height: 6em;
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+/* new product */
+.newProduct{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+.newProduct:hover .overlay{
+    opacity: 0.3;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    display: block;
+   
+}
+.newProduct:hover img{
+    transform: scale(1.3);
+}
+.newProduct:hover .title-overlay{
+    opacity: 0.6;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+   display: none;
+   z-index: 90;
+   transition: 0.4s;
+}
+
+.title-overlay{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    bottom: 0;
+    z-index: 91;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.content-title{
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    z-index: 92;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    
+}
+.newProduct img{
+    width: 100%;
+    transition: 0.4s;
+}
+.icon-badge{
+    position: absolute;
+    
+    z-index: 92;
+    top: 1em;
+    left: 1em;
+}
+.hashfacebook{
+    background-color: #4D726D;
+    color: white;
+}
+.card-img{
+    transform: rotate(30deg);
+    object-fit: cover;
+    transition: 0.4s;
+}
+.card-img:hover {
+    transform: scale(1.2);
+    box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.75);
+}
+
+/* parner 1 */
+.partner_1{
+    overflow: hidden;
+    transition: 0.4s;
+    position: relative;
+    
+}
+
+.overlay_partner{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+    background-color: black;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.partner_1:hover .overlay_partner{
+    opacity: 0.6;
+    z-index: 99;
+}
+
+
+.partner_1 img{
+    width: 100%;
+}
+.partner_1:hover img{
+    transform: scale(1.1);
+}
+
+.overlay_partner a:hover{
+    color: white;
+}
+
+.arrow-color{
+    border-top: 1em solid rgb(233, 236, 239);
+    border-right: 1em solid transparent;
+    border-left: 1em solid transparent;
+    border-bottom: 1em solid transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-1em);
+}
+
+.hotline-parner{
+    width: 100%;
+    height: 100%;
+    background-color: #C4C4C4 !important ;
+}
+
+.bg-card-hedder{
+    background-color: #4D726D;
+}
+.font{
+    font-size: 2em;
+}
+.font a:hover{
+  text-decoration: none;
+  color: #4AA180;
+}
+
+/* section trust */
+.bg-section-trust{
+    background-color: #EDF0F2;
+}
+
+.card-trust{
+    width: 100%;
+    height: 33em;
+    /* height: 500px; */
+    background-color: white;
+    position: relative;
+}
+.icon-trust{
+    font-size: 2em;
+    position: absolute;
+    background-color: rgb(64, 159, 129);
+    color: white;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    top: -1em;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.card-content-trust{
+    
+    position: absolute;
+    top: 2em;
+}
+
+/* footer */
+
+.bg-section-footer{
+    background-color: #343434;
+}
+
+.heading-title-footer{
+    color: white;
+    
+    display: block;
+}
+
+.content-title-footer{
+    list-style: none;
+    padding: 0;
+    
+
+}
+.content-title-footer li a{
+    color: gray;
+}
+
+.footer-banner{
+    width: 100%;
+    height: 90%;
+
+    background-color: gray;
+}
+
+.T-design{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: white;
+}
+
+.logo-footer{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 1px dotted black;
+    margin-bottom: 10px;
+    
+}
+
+.social-footer{
+    color: gray;
+    font-size: 2em;
+}
+
+.social-footer:hover{
+    color: white;
+}
+
+
+/* about us */
+.banner-about{
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-about img{
+    
+    width: 100%;
+
+   
+   
+   
+  
+}
+
+.overlay-about{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    
+    height: 100%;
+    background-color: rgb(243, 88, 16);
+    opacity: 0.2;
+}
+
+.overlay-banner-footer{
+    position: absolute;
+   width: 100%;
+    height: 30%;
+    bottom: 0;
+   
+    background-color: black;
+    opacity: 0.4;
+    
+}
+
+.text-overlay{
+    position: absolute;
+    
+    color: white;
+}
+
+
+.bg-banner{
+    
+    width: 100%;
+   top: 5em;
+    position: relative; 
+    margin-bottom: 5em;
+}
+
+.bg-banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay-banner-about{
+    position: absolute;
+    background-color: rgb(240, 95, 37);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.4;
+    z-index: 1;
+}
+.card-img-overlay-about{
+    position: absolute;
+    
+   
+    z-index: 2;
+    color: white;
+    text-align: center;
+   padding-top: 2em;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+}
+
+.overlay-about{
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(80, 80, 36);
+}
+
+.banner-moble{
+    position: relative;
+    top: 4em;
+    margin-bottom: 2em;
+}
+.title-banner-moble{
+    background-color: white;
+    margin-bottom: 4em;
+    padding: 2em;
+}
