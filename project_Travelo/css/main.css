@@ -79,7 +79,12 @@ body{
     background-image: url('../img/img_banner/newyork\ \(2\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
+    background-position: center;
+    /* background-attachment: fixed; */
+=======
     background-attachment: fixed;
+>>>>>>> f967fdeb42a1f19d978edf8f9665ac209e199cc9
 
    
     
@@ -88,9 +93,22 @@ body{
     width: 100%;
     height: 400px;
     background-color: black;
+<<<<<<< HEAD
+    opacity: 0.3;
+    position: absolute;
+}
+
+.title-home{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+=======
     opacity: 0.6;
     position: absolute;
 }
+>>>>>>> f967fdeb42a1f19d978edf8f9665ac209e199cc9
 .form-banner{
     /*   */
     top: 11%;
@@ -755,3 +773,165 @@ body{
     font-size: 40px;
     color: black;
 }
+<<<<<<< HEAD
+
+
+/* page - blog */
+
+.overlay-banner-blog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+.card-img-overlay-blog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 20%;
+    left: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.overlay-banner-blog-mobile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.title-banner-moble-blog{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-blog-angle{
+    font-size: 2em;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.title-blog-bvnbn:hover .icon-blog-angle{
+    opacity: 1;
+}
+
+.overlay-blog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.card-blog:hover .overlay-blog{
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+
+
+.title-blog{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.title-blog > div{
+    padding: 1em;
+}
+
+.blog-check-in{
+    color: #4AA180;
+}
+
+.blog-check-in:hover{
+    color: white;
+}
+.fa-user{
+    color: rgb(82, 79, 79);
+    background-color: rgb(145, 137, 141);
+    padding: 0.5em;
+    margin-right: 0.2em;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+}
+
+.title-user-up{
+    font-size: 0.8em;
+    color: gray;
+}
+
+.bookmark-blog{
+    opacity: 0;
+    transition: opacity 0.4s;
+    color: #4AA180;
+}
+.heading-title:hover .bookmark-blog{
+    opacity: 1;
+
+    
+}
+
+
+
+.text-blog-acticle{
+    color: black;
+}
+
+.text-blog-acticle:hover{
+    color: rgb(56, 55, 55);
+}
+
+.border-bottom-acticle{
+    
+    border-bottom: 2px dotted gray;
+}
+
+.blog-acticle-1{
+    color: #4AA180;
+    font-weight: bold;
+}
+.card-body a{
+    text-decoration: none;
+}
+
+
+.overflow-acticle{
+    height: 26.1em;
+    overflow: auto;
+}
+
+.content-acticle-blog{
+    font-size: 0.9em;
+    color: rgb(63, 62, 62);
+}
+
+.color-arrow-imp{
+    border-top: 1em solid white !important;
+}
+=======
+>>>>>>> f967fdeb42a1f19d978edf8f9665ac209e199cc9
